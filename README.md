@@ -1,16 +1,10 @@
 <div align="center">
 
 ```
- ███╗   ██╗ ██████╗  ██╗██████╗       ███████╗██╗   ██╗███████╗███╗   ███╗ ██████╗ ███╗   ██╗
- ████╗  ██║██╔═══██╗███║██╔══██╗      ██╔════╝╚██╗ ██╔╝██╔════╝████╗ ████║██╔═══██╗████╗  ██║
- ██╔██╗ ██║██║   ██║╚██║██║  ██║█████╗███████╗ ╚████╔╝ ███████╗██╔████╔██║██║   ██║██╔██╗ ██║
- ██║╚██╗██║██║   ██║ ██║██║  ██║╚════╝╚════██║  ╚██╔╝  ╚════██║██║╚██╔╝██║██║   ██║██║╚██╗██║
- ██║ ╚████║╚██████╔╝ ██║██████╔╝      ███████║   ██║   ███████║██║ ╚═╝ ██║╚██████╔╝██║ ╚████║
- ╚═╝  ╚═══╝ ╚═════╝  ╚═╝╚═════╝       ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
-                   [ REAL-TIME SYSTEM MONITORING | bad-antics ]
+╔═══════════════════════════════════════════════════════════════╗
+║  🖥️ N01D SYSMON  ·  Real-Time System Monitoring               ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
-
-### 🖥️ System Monitor with Hacker Aesthetics
 
 [![GitHub](https://img.shields.io/badge/GitHub-bad--antics-181717?style=for-the-badge&logo=github)](https://github.com/bad-antics)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -24,26 +18,21 @@
 
 | Feature | Description |
 |---------|-------------|
-| 📊 **CPU Monitor** | Real-time CPU usage per core with graphs |
-| 🧠 **Memory** | RAM/Swap usage visualization |
-| 💾 **Disk** | Storage usage per mount point |
-| 🌐 **Network** | Upload/download rates, connections |
-| 🔥 **Processes** | Top processes by CPU/Memory |
-| 🎨 **N01D Theme** | Matrix-style cyberpunk aesthetics |
+| 📊 **CPU Monitor** | Per-core usage with graphs |
+| 🧠 **Memory** | RAM/Swap visualization |
+| 💾 **Disk** | Storage per mount point |
+| 🌐 **Network** | Upload/download rates |
+| 🔥 **Processes** | Top by CPU/Memory |
+| 🎨 **N01D Theme** | Matrix-style aesthetics |
 
 ---
 
 ## 🚀 Installation
 
 ```bash
-# Clone the repo
 git clone https://github.com/bad-antics/n01d-sysmon.git
 cd n01d-sysmon
-
-# Install dependencies
 pip install customtkinter psutil
-
-# Run
 python3 n01d-sysmon.py
 ```
 
@@ -51,30 +40,11 @@ python3 n01d-sysmon.py
 
 ## 📊 Monitors
 
-### CPU
-- Per-core utilization graphs
-- Overall CPU percentage
-- Frequency and temperature (if available)
-
-### Memory
-- RAM used/available/total
-- Swap usage
-- Visual progress bars
-
-### Disk
-- Per-partition usage
-- Read/write rates
-- Mount points
-
-### Network
-- Interface statistics
-- Upload/download speed
-- Connection count
-
-### Processes
-- Top 10 by CPU usage
-- Top 10 by memory usage
-- PID, name, user info
+- **CPU** — Per-core utilization, frequency
+- **Memory** — RAM used/available/total
+- **Disk** — Per-partition usage, read/write
+- **Network** — Interface stats, speed
+- **Processes** — Top 10 by CPU/memory
 
 ---
 
@@ -82,17 +52,15 @@ python3 n01d-sysmon.py
 
 | App | Description |
 |-----|-------------|
-| **[N01D-Term](https://github.com/bad-antics/n01d-term)** | Terminal emulator |
+| **[N01D-Term](https://github.com/bad-antics/n01d-term)** | Terminal |
 | **[N01D-Notes](https://github.com/bad-antics/n01d-notes)** | Markdown notes |
-| **[N01D-SysMon](https://github.com/bad-antics/n01d-sysmon)** | System monitoring (you are here) |
+| **[N01D-SysMon](https://github.com/bad-antics/n01d-sysmon)** | System monitor |
 | **[N01D-Media](https://github.com/bad-antics/n01d-media)** | Media suite |
 
 ---
 
 <div align="center">
 
-**[GitHub](https://github.com/bad-antics)** • **[NullSec](https://github.com/bad-antics/nullsec)** • **[Issues](https://github.com/bad-antics/n01d-sysmon/issues)**
-
-*Part of the NullSec Framework*
+**[GitHub](https://github.com/bad-antics)** • **[NullSec](https://github.com/bad-antics/nullsec)**
 
 </div>
